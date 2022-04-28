@@ -27,7 +27,7 @@ export const Card = styled.div`
     cursor: pointer;
     width: 100%
     height: 380px;
-    padding: 175px 35px;
+    padding: 150px 30px;
 
     &:hover > .Front{
         transform: perspective(600px) rotateY(-180deg);
@@ -49,7 +49,7 @@ export const Front = styled.div`
 
 export const Back = styled.div`
     height: 50%;
-    padding: 35px;
+    padding: 15px;
     overflow: hidden;
     backface-visibility: hidden;
     position: absolute;

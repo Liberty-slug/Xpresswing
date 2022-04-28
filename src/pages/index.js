@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import HeroSection from '../components/HeroSection'
 import InfoSection from '../components/InfoSection'
-import { homeObjOne } from '../components/InfoSection/Data'
+import { homeObjOne, thirdlayer } from '../components/InfoSection/Data'
 import Navbar from '../components/Navbar'
 import Sidebar from '../components/Sidebar'
 import StaffSection from '../components/StaffSection'
@@ -20,6 +20,7 @@ const Home = () => {
         <HeroSection />
         <InfoSection {...homeObjOne}/>
         <StaffSection />
+        <InfoSection {...thirdlayer}/>
     </>
   )
 }

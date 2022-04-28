@@ -16,5 +16,18 @@ export const homeObjOne = {
 }
 
 export const thirdlayer = {
-    id: ''
+    id: 'service',
+    lightBg: true,
+    lightText: false,
+    lightTextDecs: true,
+    topLine: "Premium Bank",
+    headline: 'Unlimited Transactions with zero fees',
+    description: 'Get access to our exclusive app that allows you to send unlimited transaction',
+    buttonLabel: 'Get Started',
+    imgStart: true,
+    img: require('../../images/svg-2.svg').default,
+    alt: 'Car',
+    dark: true,
+    primary: true,
+    darkText: true,
 }
